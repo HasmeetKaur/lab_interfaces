@@ -15,7 +15,7 @@ public class Puffin implements IAnimal, IFly, ISwim, IPrey {
 
     @Override
     public void sleep() {
-        System.out.println("Puffin is eating");
+        System.out.println("Puffin is sleeping");
     }
 
     @Override

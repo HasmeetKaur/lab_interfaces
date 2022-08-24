@@ -15,23 +15,14 @@ public class Tiger implements IAnimal, ISwim, IHunt, IRun {
     // added the IRun interface and added the run method
 
     @Override
-    public void run() {
-
-    }
-
+    public void run() { System.out.println("Tiger is running"); }
 
     @Override
-    public void eat() {
-
-    }
+    public void eat() { System.out.println("Tiger is eating"); }
 
     @Override
-    public void sleep() {
-
-    }
+    public void sleep() { System.out.println("Tiger is sleeping"); }
 
     @Override
-    public void hunt() {
-        
-    }
+    public void hunt() { System.out.println("Tiger is hunting"); }
 }
